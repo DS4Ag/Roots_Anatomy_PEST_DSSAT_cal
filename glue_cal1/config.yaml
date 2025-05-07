@@ -1,0 +1,46 @@
+ww2023_data:
+  WW23_G-1: ENTRY 1
+  WW23_G-2: ENTRY 2
+  WW23_G-3: ENTRY 3
+  WW23_G-4: ENTRY 4
+  WW23_G-5: ENTRY 5
+  WW23_G-6: ENTRY 6
+  WW23_G-7: ENTRY 7
+  WW23_G-8: ENTRY 8
+  WW23_G-9: ENTRY 9
+  WW23_G-10: ENTRY 10
+  WW23_G-11: ENTRY 11
+  WW23_G-12: ENTRY 12
+  WW23_G-13: ENTRY 13
+  WW23_G-14: ENTRY 14
+
+plantgro_variables:
+
+overview_variables:
+  - Emergence (DAP)
+  - Anthesis (DAP)
+  - Maturity (DAP)
+  - Product wt (kg dm/ha;no loss)
+  - Product unit weight (g dm)
+  - Product number (no/m2)
+  - Product harvest index (ratio)
+  - Maximum leaf area index
+  - Canopy (tops) wt (kg dm/ha)
+  - Vegetative wt (kg dm/ha)
+  - Product N (kg/ha)
+  - Product N (%)
+
+file_paths:
+  cul_file: C:/DSSAT48/Genotype/WHCER048.CUL
+  overview_file: C:/DSSAT48/Wheat/OVERVIEW.OUT
+  plantgro_file: C:/DSSAT48/Wheat/PlantGro.OUT
+
+commands:
+  model_command: py C:/pest18/run_dssat.py
+  py_command_file: C:/pest18/run_dssat.py
+
+calibration_method:
+  - GLUE
+
+label:
+  - GLUE - All Variables
