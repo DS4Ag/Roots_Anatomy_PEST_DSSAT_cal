@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+from sklearn.metrics import mean_squared_error
 
 def compute_grouped_rmse(df, group_cols):
     """
