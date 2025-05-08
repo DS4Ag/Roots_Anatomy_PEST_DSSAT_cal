@@ -1,3 +1,6 @@
+import numpy as np
+import pandas as pd
+
 def compute_grouped_rmse(df, group_cols):
     """
     Compute RMSE between value_measured and value_simulated,
